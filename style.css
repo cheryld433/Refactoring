@@ -32,13 +32,15 @@ body {
     font-size: 20px;
 }
 
-/* Combined .header div ul and .header div ul li
-and  deleted seperate selectors */
+.header div ul li { 
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
 
 .header div ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 25px;
+    display: ;
+    margin-left: ;
 }
 
 a {
@@ -77,7 +79,7 @@ p {
     margin-left: 25px;
 }
 
-.benefits {
+.benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -87,7 +89,6 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 /* Combined .benefit-lead, -brand, and -cost selectors and 
 deleted seperate selectors */
 
@@ -113,19 +114,10 @@ and deleted seperate selectors. */
 
 .benefit-lead img,
 .benefit-brand img,
-.benefit-cost img { 
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-} 
-
-/* Combined search-engine-optimization h2, online-reputation h2, 
-and social-media-marketing h3 selectors under .benefits h2, h3 
-and deleted seperate selectors. */
-
-.benefits h2 h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .search-engine-optimization {
@@ -154,21 +146,20 @@ and deleted seperate selectors. */
     background-color: #0072bb;
     color: #ffffff;
 }
+/* Combined search-engine-optimization img, online-reputation-management img, 
+and social-mmedia-marketing img */
 
-/* Combined img selectors in <div class="benefits"> 
-and deleted seperated selectors. */
-
-.search-engine-optimization img, 
-.online-reputation-management img,  
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
+/* Combined .search-engine-optimization h2, .online-reputation-management h2, and 
+.social-media-marketing h2 */
 
-/* Combined benefits h2, online-reputation h2, 
-and social-media-marketing h3 selectors and deleted seperate
-selectors. */
-
-.benefits h2 h3 {
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
